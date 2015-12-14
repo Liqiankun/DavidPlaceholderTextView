@@ -4,4 +4,4 @@ UITextView with Placeholder
 
 Demo
 =================
-![](https://github.com/Liqiankun/DavidPlacehodlerTextView/raw/master/DavidPlaceholderTextView.gif) 
+![](https://github.com/Liqiankun//DavidPlaceholderTextView/raw/master/DavidPlaceholderTextView.gif) 
