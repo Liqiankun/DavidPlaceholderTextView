@@ -9,7 +9,7 @@ I'm sure sometimes you wish `UITextView` like `UITextField` has `placehodler`,bu
 
 How to use
 ============================
-Darg `DavidPlaceholderTextView` file to you project. Then `#improt "DavidPlaceholderTextView.h"`.<br>
+Darg `DavidPlaceholderTextView` folder to you project. Then `#improt "DavidPlaceholderTextView.h"`.<br>
 把`DavidPlaceholderTextView`文件夹拖到你的项目中。然后 `#improt "DavidPlaceholderTextView.h"。<br>
 Like:<bt>
 ```oc
