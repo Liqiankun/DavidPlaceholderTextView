@@ -63,7 +63,7 @@
     CGFloat y = 8;
     CGFloat h = rect.size.height - 2 * y;
     CGRect placeholderRect = CGRectMake(x, y, w, h);
-    [self.placeholder drawInRect:placeholderRect withAttributes:attributeDic];
+    [self.placeholder?self.placeholder:@我有占位提示文字奥..." drawInRect:placeholderRect withAttributes:attributeDic];
 }
 
 -(void)dealloc
