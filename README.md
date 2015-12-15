@@ -1,11 +1,16 @@
 DavidPlaceholderTextView
 ============================
-I'm sure sometimes you wish `UITextView` like `UITextField` has `placehodler`,but it doesn't! With `DavidPlaceholderTextView` things are easy right now.
+I'm sure sometimes you wish `UITextView` like `UITextField` has `placehodler`,but it doesn't! With `DavidPlaceholderTextView` things are easy right now.<br>
+
+我敢肯定有的时候你希望`UITextView`像`UITextField`一样有`placehodler`，但是很遗憾它没有。现在有了`DavidPlaceholderTextView`问题就解决了。<br>
+
+
 ![](https://github.com/Liqiankun//DavidPlaceholderTextView/raw/master/DavidPlaceholderTextView.gif)
 
 How to use
 ============================
 Darg `DavidPlaceholderTextView` file to you project. Then `#improt "DavidPlaceholderTextView.h"`.<br>
+把`DavidPlaceholderTextView`文件夹拖到你的项目中。然后 `#improt "DavidPlaceholderTextView.h"。<br>
 Like:<bt>
 ```oc
     self.textView = [[DavidPlaceholderTextView alloc] initWithFrame:self.view.bounds];
@@ -18,11 +23,13 @@ Like:<bt>
 ```
 Configuration
 ===================
-The placehodler string;
+The placehodler string.<br>
+这个是placeholder属性。<br>
 ```oc
 @property(nonatomic,copy) NSString *placeholder;
 ```
-The color of placeholder. Default is `[UIColor grayColor]`.
+The color of placeholder. Default is `[UIColor grayColor]`.<br>
+这个是placeholder颜色属性，默认是`[UIColor grayColor]`。<br>
 ```oc
 @property(nonatomic,strong) UIColor *placeholderColor;
 ```
