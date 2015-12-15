@@ -23,8 +23,8 @@ Like:<bt>
 ```
 Configuration
 ===================
-The placehodler string.<br>
-这个是placeholder属性。<br>
+The placehodler string. Default is @"我有占位提示文字奥...".<br>
+这个是placeholder属性。默认是@"我有占位提示文字奥..."。<br>
 ```oc
 @property(nonatomic,copy) NSString *placeholder;
 ```
