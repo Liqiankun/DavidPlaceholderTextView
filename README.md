@@ -7,8 +7,7 @@ I'm sure sometimes you wish `UITextView` like `UITextField` has `placehodler`,bu
 
 ![](https://github.com/Liqiankun//DavidPlaceholderTextView/raw/master/DavidPlaceholderTextView.gif)
 
-How to use
-============================
+#How to use
 Darg `DavidPlaceholderTextView` folder to you project. Then `#improt "DavidPlaceholderTextView.h"`.<br>
 把`DavidPlaceholderTextView`文件夹拖到你的项目中。然后 `#improt "DavidPlaceholderTextView.h"。<br>
 Like:<bt>
@@ -21,8 +20,7 @@ Like:<bt>
     
     self.textView.font = [UIFont systemFontOfSize:20];
 ```
-Configuration
-===================
+#Configuration
 The placehodler string. Default is @"我有占位提示文字奥...".<br>
 这个是placeholder属性。默认是@"我有占位提示文字奥..."。<br>
 ```oc
