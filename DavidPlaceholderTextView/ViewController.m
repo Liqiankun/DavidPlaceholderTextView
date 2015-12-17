@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DavidPlaceholderTextView.h"
-@interface ViewController ()
+@interface ViewController ()<UITextViewDelegate>
 
 
 @property(nonatomic,strong)DavidPlaceholderTextView *textView;
@@ -27,7 +27,16 @@
     self.textView.placeholder = @"我有占位提示文字奥...";
     self.textView.placeholderColor = [UIColor grayColor];
     self.textView.font = [UIFont systemFontOfSize:20];
+    //如果想实现下拉收起键盘alwaysBounceVertical必须设置
+    self.textView.alwaysBounceVertical = YES;
+    self.textView.delegate = self;
     [self.view addSubview:self.textView];
+}
+
+//下拉的时候收起键盘，如果需要是实现下拉收起键盘请实现此方法
+-(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self.view endEditing:YES];
 }
 
 - (void)didReceiveMemoryWarning {
