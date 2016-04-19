@@ -20,6 +20,15 @@
     return self;
 }
 
+-(instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textDidChange) name:UITextViewTextDidChangeNotification object:self];
+    }
+    
+    return self;
+}
+
 -(void)setPlaceholder:(NSString *)placeholder
 {
     _placeholder = placeholder;
